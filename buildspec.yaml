@@ -24,10 +24,10 @@ phases:
         --cov-report=html:test-reports/coverage 
         --log-file=test-reports/logs.txt 
         tests
-  post_build:
-    commands:
-      - echo Build completed on `date`
   artifacts:
     files:
       - Procfile
-    discard-paths: no
+    discard-paths: no      
+  post_build:
+    commands:
+      - echo Build completed on `date`
