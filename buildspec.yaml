@@ -31,5 +31,6 @@ phases:
 
 artifacts:
   files:
+    - '**/*'
     - Procfile
   discard-paths: no
