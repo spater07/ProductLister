@@ -28,6 +28,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - rm -rf test_venv
 
 artifacts:
   files:
