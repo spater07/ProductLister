@@ -1,3 +1,5 @@
 gunicorn
 flask
 pytest
+pytest-html
+pytest-cov
